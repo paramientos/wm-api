@@ -33,7 +33,7 @@ London (51.5144636,-0.142571)
 - You can run this project via Docker, to to this:
 
 ```bash
- git clone https://github.com/soysaltan/wm-api
+ git clone https://github.com/yeminlideveloper/wm-api
  docker build -t wm/api ./
  docker run --rm -it --name wm-api -p 1337:1337 wm/api
 ```
@@ -43,7 +43,7 @@ or
 - To run on your host, you need to have NodeJs and NPM installed (see **Tech Stack Section**)
 
 ```bash
-git clone https://github.com/soysaltan/wm-api
+git clone https://github.com/yeminlideveloper/wm-api
 npm install && npm cache clean --force && npm install sails -g
 node app.js # https://sailsjs.com/documentation/tutorials/using-type-script
 ```
